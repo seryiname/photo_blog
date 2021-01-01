@@ -1,0 +1,38 @@
+$jumbotron-bg: rgba(255,255,255, 0.3);
+$primary: #52aef0;
+$warning: #ec8486;
+@import "bootstrap";
+.container-background {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(image_path('bg.jpg'));
+
+}
+$text-color: white;
+
+.title {
+  color: $text-color;
+}
+.subtitle {
+  color: #161342;
+  font-weight: 700;
+  font-size: 25px;
+}
+.jumbotron-landing {
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+.nav-landing:link,
+.nav-landing:visited {
+  color: #3498db;
+}
+
+.nav-landing:hover,
+.nav-landing:active {
+  color: #30ee1e;
+  text-decoration: none;
+  
+}
